@@ -12,9 +12,7 @@ html{
 
 body{
 	width: 960px;
-	margin: auto;
-	margin-bottom: 15px;
-	margin-top: 15px;
+	margin: 15px auto 15px auto;
 	background-image: url(pictures/deepimg.jpg);
 	background-repeat:no-repeat;
 	background-size: 960px 100%;
@@ -33,7 +31,7 @@ header{
 	height: 100px;
 
  }
-.mainhead > h1{
+#mainhead > h1{
   	height: 50px;
 	width: 750px;
 	margin-top: 50px;
@@ -126,34 +124,36 @@ nav li a:hover{
 
 section{
 	width: 900px;
-	height: 450px;
+	height: 380px;
 	margin: 15px 30px 15px 30px;
 	border-bottom:#669999 2px solid;
 }
 #cabecera{
 	height:150px; 
+	height: 100px;
 }
 #cabecera > h1{
-	text-align:left;
-	clear: both;
-	width: 400px;
-	float:right;
+	text-align:center;
+	width: 900px;
 	color: #339966;
 	font: 25px "Times New Roman", Times, serif;
 }
  
 #cabecera > h2{
 	font-family:"Calisto MT";
-	width: 400px;
+	width: 900px;
+	margin: 0;
 	text-align: center;
 }
 
-img{
+p > img{
 	float:left;
-	-moz-border-image: url(pictures/bordes.png) 20px stretch;
+	border: 5px solid #CC9900;
 }
  #info{
-
+	width: 900px;
+	height: 160px;
+	margin: 10px 0px 20px 0px;
 
  }
 p{

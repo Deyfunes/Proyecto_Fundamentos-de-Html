@@ -1,0 +1,251 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	background-image: url(pictures/cube3D.jpg);
+	background-repeat:no-repeat;
+	background-size: 100%;
+  	background-attachment:fixed;
+}
+
+
+body{
+	width: 960px;
+	margin: 15px auto 15px auto;
+	background-image:url(pictures/deepimg.jpg);
+	background-repeat:no-repeat;
+	background-size: 100% 100% ;
+	border:solid;
+
+}
+header{
+	width: 900px;
+	height: 370px;
+	border-bottom: 4px solid #66FF33; 
+	margin: 15px 30px 15px 30px;
+
+}
+#mainhead{
+	width: 900px;
+	height: 160px;
+	background: hsla(100, 59%, 200, 0.3);
+}
+
+#mainhead > h1{
+  	height: 70px;
+	width: 750px;
+	font: 35px "Engravers MT";
+	float:right;
+	letter-spacing: 2px;
+	margin-top: 60px;
+	border-bottom: 4px solid #996699;
+	color: #669966;
+}
+img{
+	float: left;
+} 
+#subhead{
+	width: 900px;
+	height: 160px;
+}
+
+hgroup{
+	width: 900px;
+	height: 200px;
+	
+}
+
+ hgroup > h1{
+ 	font: 25px  "Times New Roman", Times, serif; 
+	color:#CC9900;
+	text-align:center;
+ } 
+ 
+ h2, h3{
+ 	width: 500px;
+	height: 20px;
+	float:left;
+	font: 20px "Times New Roman", Times, serif;
+	color: #663399;
+	margin: 10 0 5 0;
+ }
+ 
+ #date{
+ 	width: 270px;
+ 	float: right;
+	text-align:center;
+ }
+  
+#menu{
+	width: 400px;
+	height: 32px;
+
+}
+
+nav{
+	float:left;
+	clear:both;
+	width: 350px;
+	height: 32px;
+	
+}
+
+nav li{
+	margin-bottom: 0px;
+	font-size: 23px;
+	float:left;
+	list-style-type:none;
+}
+
+ 
+nav li a{
+	color: #000099;
+	text-decoration: none;
+	padding: 5px 2px 9px 2px;
+	border: solid 1px;
+	border-bottom:none;
+	border-radius: 4px 4px 0px 0px;
+	font: 18px "Times New Roman", Times, serif;
+	background-color:#669999;
+}
+
+nav li a:hover{
+	color: #CC9933;
+	border-bottom-style:none;
+   	background: -moz-linear-gradient(top, #CCCC99 20%, #66FF33 80%);
+	background: -webkit-linear-gradient(top, #CCCC99 20%, #66FF33 80%);
+}
+
+
+section{
+	width: 900px;
+	height: 400px;
+	border-bottom: 2px solid #66FF33; 
+	margin: 15px 30px 15px 30px;
+
+}
+section > h2{
+	width:900px;
+	font: 20px "Verdana, Arial, Helvetica, sans-serif";
+	text-align:center;
+	background-color: hsla(60%, 200, 40%, 04);
+}
+video{
+	background-color:#66CC33;
+	width: 900px;
+	margin-bottom: 20px;
+	
+}
+video > source{
+	width: 500px;
+	background-color:#66CC33;
+}
+audio{
+	background-color: #9933CC;
+	
+
+}
+
+footer{
+	width: 900px;
+	height: 300px;
+	margin: 15px 30px 15px 30px;
+}
+
+article{
+	height: 250px;
+
+}
+figure{
+	margin: 0;
+	width: 900px;
+	height: 200px;
+}
+
+.box1{
+	width: 400px;
+	height: 150px;
+	float: left;
+}
+
+#phone{
+	width: 120px;
+	height: 85px;
+	margin-left: 10px;
+	float: left;
+}
+
+#phone > img{
+	 margin-left: 20px;
+
+}
+#phone > p{
+	width: 115px;
+	color: #33CCCC;
+	height: 18px;
+	float: left;
+	margin: 0;
+}
+
+a > img{
+	border: 2px solid  #996699;
+	margin-left: 20px;
+	border-radius: 4px;
+}
+
+#Domicilio{
+	width: 85px;
+	height: 65px;
+	float: left;
+	margin: 5px 5px;
+
+}
+.box2{
+	width: 300px;
+	height: 150px;
+	float: right;
+}
+ .box1 > svg{
+  	float: left;
+	margin-left: 10px;
+ }
+ 
+ .box2 > svg{
+ 	float: left;
+	margin: 0px 25px 0px 25px;
+ }
+ 
+ .box1 > h1{
+ 	width: 120px;
+	height: 30px;
+	text-align:center;
+	font: bold 20px "Times New Roman", Times, serif;
+	margin: 10px 0px 30px 80px;
+	border-radius: 4px; 
+	background:hsla(240, 60%, 30%, 0.4);
+	color: #66FF33;
+	}
+	
+.box2 > h1{
+	text-align:center;
+	font: bold 20px "Times New Roman", Times, serif;
+	width: 120px;
+	height: 30px;
+ 	background:hsla(240, 60%, 30%, 0.4);
+	margin: 10px 0px 30px 80px;
+	border-radius: 4px;
+	color: #66FF33;
+}	
+#twitter{
+	
+-moz-box-shadow: 5px 5px 5px 5px #888;
+
+}
+
+ #copy{
+ 	width: 900px;
+	color: green;
+	font: 20px "Times New Roman", Times, serif;
+ 	float:left;
+	text-align: center;
+}

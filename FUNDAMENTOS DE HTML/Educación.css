@@ -37,7 +37,6 @@ header{
 #mainhead > h1{
 	text-align:left;
 	width: 750px;
-	text-shadow:#CC9999;
 	border-bottom: 4px solid #996666;
 	float: right;
 	font: 35px "Times New Roman", Times, serif;
@@ -74,8 +73,8 @@ header{
 
  h2, h3{
  	font: 20px "Times New Roman", Times, serif;
- 	width: 500px;
-	margin: 0;
+ 	width: 550px;
+	margin: 10px 10px;
 	color: #996600;
 	height: 50px;
 	float:left;
@@ -84,18 +83,34 @@ header{
  #date{
  	width: 300px;
 	float:left;
-	text-align:right;
+	text-align:center;
  }
  #menu{
-	 width: 350px;
-	height: 60px;
+	 width: 400px;
+	height: 42px;
  }
+nav{
+	width: 400px;
+ 	height: 40px;
+
+}
 
  nav li{
 	float:left;
 	display:inline;
-	margin-left: 8px;
-	margin-top: 4px;
+	margin-left: 2px;
+	 
+}
+nav li:first-child{
+	color:#009E73;
+	float: left;
+	font: 27px "Calisto Mt";
+
+}
+
+nav li:nth-child(2){
+	width: 18px;
+	float: left;
 }
 
 nav li a{
@@ -104,6 +119,7 @@ nav li a{
 	padding: 3px 3px 3px 3px;
 	border: 1px solid #663333;
 	border-radius: 4px;
+	margin: 0;
 	background-color:#669999;
 	font: 18px "Times New Roman", Times, serif;
 

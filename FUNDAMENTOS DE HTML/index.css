@@ -72,7 +72,7 @@ hgroup{
  }
 
  h2, h3{
- 	width: 500px;
+ 	width: 550px;
 	float:left;
 	font: 20px "Times New Roman", Times, serif;
 	color: #663399;
@@ -80,7 +80,7 @@ hgroup{
  }
 
  #date{
- 	width: 270px;
+ 	width: 300px;
  	float:right;
  }
 
@@ -91,28 +91,44 @@ nav{
 
 }
 
-#title{
-
-	font-size: 23px;
-	float:left;
-	color: #CC3399;
-}
 .menu{
-	width: 355px;
-	height: 35px;	
+	width: 400px;
+	height: 42px;	
  	float: left;
-	margin: 5 0 5 0;
 
 }
+
+nav{
+	 
+	width: 400px;
+	height: 40px;
+	
+}
+nav li:first-child{
+	float: left;
+	color: #d55e00;
+
+}
+nav li:nth-child(2){
+	width: 18px;
+	float: left;
+}
+
  nav li{
- 	 display:inline;
+	display: inline;
+	width: 70px;
+	height: 38px;
+	font: 23px "Verdana";
+	list-style-type:none;
 }
  
 nav li a{
 	color: #9900CC;
 	text-decoration:none;
-	padding: 2px 4px 2px 4px;
+	padding: 4px 2px 4px 2px;
 	border: 1px solid black;
+	float: left;
+	margin-left:3px;
 	border-radius: 3px;
 	font: 18px "Times New Roman", Times, serif;
 	background-color:#009999;
@@ -173,6 +189,7 @@ p{
 #Idioms{
 	float: left;
 	width:100px;
+	margin: 10px 5px 5px 3px;
 	height: 80px;
 }
 #Idioms > h3{
